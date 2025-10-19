@@ -5,13 +5,21 @@
   "type": "module",
   "bin": {
     "beecoder": "bin/beecoder.cjs"
-  },  
+  },
   "scripts": {
     "start": "node --watch --experimental-strip-types index.ts start",
     "build": "esbuild index.ts --bundle --platform=node --target=node22 --banner:js='#! /usr/bin/env node' --drop:console --outfile=bin/beecoder.cjs"
   },
-  "keywords": ["ai", "copilot", "pollinations"],
-  "files": ["bin", "README.md"],
+  "keywords": [
+    "ai",
+    "copilot",
+    "pollinations"
+  ],
+  "files": [
+    "bin",
+    "docs",
+    "README.md"
+  ],
   "homepage": "https://github.com/cemalgnlts/beecoder",
   "author": "cemalgnlts",
   "license": "SEE LICENSE IN LICENSE",

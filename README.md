@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/icon-512.png" width="56">
+<img src="./docs/icon-512.png" width="100">
 </div>
 <div align="center">
 BeeCoder
