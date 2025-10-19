@@ -1,0 +1,50 @@
+[
+  {
+    "name": "deepseek",
+    "description": "DeepSeek V3.1",
+    "maxInputChars": 10000,
+    "reasoning": true,
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "gemini",
+    "description": "Gemini 2.5 Flash Lite",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "openai",
+    "description": "OpenAI GPT-5 Nano",
+    "maxInputChars": 7000,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "openai-fast",
+    "description": "OpenAI GPT-4.1 Nano",
+    "maxInputChars": 5000,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "openai-large",
+    "description": "OpenAI GPT-5 Chat",
+    "maxInputChars": 30000,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "openai-reasoning",
+    "description": "OpenAI o4 Mini",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "qwen-coder",
+    "description": "Qwen 2.5 Coder 32B",
+    "tools": true,
+    "vision": false
+  }
+]

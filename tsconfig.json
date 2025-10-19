@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strict": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
