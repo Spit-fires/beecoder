@@ -1,19 +1,5 @@
 [
   {
-    "name": "deepseek",
-    "description": "DeepSeek V3.1",
-    "maxInputChars": 10000,
-    "reasoning": true,
-    "tools": true,
-    "vision": false
-  },
-  {
-    "name": "gemini",
-    "description": "Gemini 2.5 Flash Lite",
-    "tools": true,
-    "vision": true
-  },
-  {
     "name": "openai",
     "description": "OpenAI GPT-5 Nano",
     "maxInputChars": 7000,
@@ -31,12 +17,6 @@
     "name": "openai-large",
     "description": "OpenAI GPT-5 Chat",
     "maxInputChars": 30000,
-    "tools": true,
-    "vision": true
-  },
-  {
-    "name": "openai-reasoning",
-    "description": "OpenAI o4 Mini",
     "reasoning": true,
     "tools": true,
     "vision": true
@@ -45,6 +25,215 @@
     "name": "qwen-coder",
     "description": "Qwen 2.5 Coder 32B",
     "tools": true,
+    "vision": false
+  },
+  {
+    "name": "mistral",
+    "description": "Mistral",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "openai-audio",
+    "description": "OpenAI Audio",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "openai-audio-large",
+    "description": "OpenAI Audio Large",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "gemini",
+    "description": "Gemini 2.5 Flash Lite",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "gemini-flash-lite-3.1",
+    "description": "Gemini Flash Lite 3.1",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "gemini-fast",
+    "description": "Gemini Fast",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "deepseek",
+    "description": "DeepSeek V3.1",
+    "maxInputChars": 10000,
+    "reasoning": true,
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "deepseek-pro",
+    "description": "DeepSeek Pro",
+    "reasoning": true,
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "grok",
+    "description": "Grok",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "grok-large",
+    "description": "Grok Large",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "gemini-search",
+    "description": "Gemini Search",
+    "vision": true
+  },
+  {
+    "name": "midijourney",
+    "description": "Midijourney",
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "midijourney-large",
+    "description": "Midijourney Large",
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "claude-fast",
+    "description": "Claude Fast",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "claude",
+    "description": "Claude",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "claude-large",
+    "description": "Claude Large",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "claude-opus-4.7",
+    "description": "Claude Opus 4.7",
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "perplexity-fast",
+    "description": "Perplexity Fast",
+    "vision": false
+  },
+  {
+    "name": "perplexity-reasoning",
+    "description": "Perplexity Reasoning",
+    "reasoning": true,
+    "vision": false
+  },
+  {
+    "name": "kimi",
+    "description": "Kimi",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "kimi-k2.6",
+    "description": "Kimi K2.6",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "gemini-large",
+    "description": "Gemini Large",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "nova-fast",
+    "description": "Nova Fast",
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "nova",
+    "description": "Nova",
+    "reasoning": true,
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "glm",
+    "description": "GLM",
+    "reasoning": true,
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "llama",
+    "description": "Llama",
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "minimax",
+    "description": "MiniMax",
+    "reasoning": true,
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "mistral-large",
+    "description": "Mistral Large",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "polly",
+    "description": "Polly",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "qwen-coder-large",
+    "description": "Qwen Coder Large",
+    "tools": true,
+    "vision": false
+  },
+  {
+    "name": "qwen-large",
+    "description": "Qwen Large",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "qwen-vision",
+    "description": "Qwen Vision",
+    "reasoning": true,
+    "tools": true,
+    "vision": true
+  },
+  {
+    "name": "qwen-safety",
+    "description": "Qwen Safety",
     "vision": false
   }
 ]

@@ -13,17 +13,6 @@ let token: null | string = null;
 
 const models: IModel[] = [
   {
-    model: "deepseek",
-    name: "DeepSeek V3.1",
-    maxInputChars: 10000,
-    capabilities: ["completion", "tools", "thinking"]
-  },
-  {
-    model: "gemini",
-    name: "Gemini 2.5 Flash Lite",
-    capabilities: ["completion", "tools", "vision"]
-  },
-  {
     model: "openai",
     name: "OpenAI GPT-5 Nano",
     maxInputChars: 7000,
@@ -39,17 +28,178 @@ const models: IModel[] = [
     model: "openai-large",
     name: "OpenAI GPT-5 Chat",
     maxInputChars: 30000,
-    capabilities: ["completion", "tools", "vision"]
-  },
-  {
-    model: "openai-reasoning",
-    name: "OpenAI o4 Mini",
     capabilities: ["completion", "tools", "thinking", "vision"]
   },
   {
     model: "qwen-coder",
     name: "Qwen 2.5 Coder 32B",
+    capabilities: ["completion", "tools"]
+  },
+  {
+    model: "mistral",
+    name: "Mistral",
     capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "openai-audio",
+    name: "OpenAI Audio",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "openai-audio-large",
+    name: "OpenAI Audio Large",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "gemini",
+    name: "Gemini 2.5 Flash Lite",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "gemini-flash-lite-3.1",
+    name: "Gemini Flash Lite 3.1",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "gemini-fast",
+    name: "Gemini Fast",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "deepseek",
+    name: "DeepSeek V3.1",
+    maxInputChars: 10000,
+    capabilities: ["completion", "tools", "thinking"]
+  },
+  {
+    model: "deepseek-pro",
+    name: "DeepSeek Pro",
+    capabilities: ["completion", "tools", "thinking"]
+  },
+  {
+    model: "grok",
+    name: "Grok",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "grok-large",
+    name: "Grok Large",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "gemini-search",
+    name: "Gemini Search",
+    capabilities: ["completion", "vision"]
+  },
+  {
+    model: "midijourney",
+    name: "Midijourney",
+    capabilities: ["completion", "tools"]
+  },
+  {
+    model: "midijourney-large",
+    name: "Midijourney Large",
+    capabilities: ["completion", "tools"]
+  },
+  {
+    model: "claude-fast",
+    name: "Claude Fast",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "claude",
+    name: "Claude",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "claude-large",
+    name: "Claude Large",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "claude-opus-4.7",
+    name: "Claude Opus 4.7",
+    capabilities: ["completion", "tools", "vision"]
+  },
+  {
+    model: "perplexity-fast",
+    name: "Perplexity Fast",
+    capabilities: ["completion"]
+  },
+  {
+    model: "perplexity-reasoning",
+    name: "Perplexity Reasoning",
+    capabilities: ["completion", "thinking"]
+  },
+  {
+    model: "kimi",
+    name: "Kimi",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "kimi-k2.6",
+    name: "Kimi K2.6",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "gemini-large",
+    name: "Gemini Large",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "nova-fast",
+    name: "Nova Fast",
+    capabilities: ["completion", "tools"]
+  },
+  {
+    model: "nova",
+    name: "Nova",
+    capabilities: ["completion", "tools", "thinking"]
+  },
+  {
+    model: "glm",
+    name: "GLM",
+    capabilities: ["completion", "tools", "thinking"]
+  },
+  {
+    model: "llama",
+    name: "Llama",
+    capabilities: ["completion", "tools"]
+  },
+  {
+    model: "minimax",
+    name: "MiniMax",
+    capabilities: ["completion", "tools", "thinking"]
+  },
+  {
+    model: "mistral-large",
+    name: "Mistral Large",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "polly",
+    name: "Polly",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "qwen-coder-large",
+    name: "Qwen Coder Large",
+    capabilities: ["completion", "tools"]
+  },
+  {
+    model: "qwen-large",
+    name: "Qwen Large",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "qwen-vision",
+    name: "Qwen Vision",
+    capabilities: ["completion", "tools", "thinking", "vision"]
+  },
+  {
+    model: "qwen-safety",
+    name: "Qwen Safety",
+    capabilities: ["completion"]
   }
 ];
 
